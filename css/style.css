@@ -1,6 +1,19 @@
 h1{
-  text align-self: center;
-
+  text-align: center;
+  color: rebeccapurple
 }
 
-body 
+body {
+  background-color: rgb(176, 174, 174);
+  margin-left: 2rem;
+  
+}
+h2{
+  color: rebeccapurple
+}
+p{
+  color: rgba(8, 2, 2, 0.663)
+}
+li{
+  color: rebeccapurple
+}

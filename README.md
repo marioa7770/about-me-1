@@ -1,15 +1,18 @@
-# LAB 2 
+# LAB 2
 
-## About me project
+## Mission Statement
 
-I build an app with a direct and powerful purpose. It does all of the things that it accomplishes well. I should describe the purpose and functionality so those that visit my README understand the app
+Lab 2 is an all about me project. I am building a web page with the contents that relates to my self. this site will also include some CSS, HTML, and JavaScript. The purpose of this project is to let the viewer get to know me better. this is also a fun way for me to experiment and learn the different code language.
 
-### Hatrvey Francois: Student at Codefellows code-201
+### Harvey Francois: Student at Code fellows code-201
 
 ### Links and Resources
+
 * [submission PR](http://xyz.com)
-* Any Links you used as reference
+
+*
 
 ### Reflections and Comments
+
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
