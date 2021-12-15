@@ -1,13 +1,13 @@
 
 
-function greeting() {
+
   let userName = prompt('what is your name?');
   alert('Hi, ' + userName + ' Welcome to my site. lets play questionnaire game. I will ask you some question about my self and you try to guess yes or no.');
   alert('this is so that you can get to know me a little better.');
   alert('ready?');
-}
 
-function questionOne() {
+
+
   let answer = prompt('Do i like coding?');
   if (answer.toLowerCase() === 'yes') {
     alert('Yes I do like coding!');
@@ -16,10 +16,10 @@ function questionOne() {
     alert('You are wrong.');
   }
   console.log(answer);
-}
 
-function questionTwo() {
-  let answer = prompt('I my favorite food mac & cheese?');
+
+
+  let answer = prompt('My favorite food mac & cheese?');
   if (answer.toLowerCase() === 'yes') {
     alert('You are correct!');
   }
@@ -27,9 +27,9 @@ function questionTwo() {
     alert('Ohh... Better luck next try.');
   }
   console.log(answer);
-}
 
-function questionThree() {
+
+
   let answer = prompt('Am I in to sports?');
   if (answer.toLowerCase() === 'yes') {
     alert('Sorry thats the wrong answer.');
@@ -37,10 +37,10 @@ function questionThree() {
   else if (answer.toLowerCase() === 'no') {
     alert('Thats right!');
   }
-  console.log('answer');
-}
+  console.log(answer);
 
-function questionFour() {
+
+
   let answer = prompt('Have I always lived here in Washington state?');
   if (answer.toLowerCase() === 'yes') {
     alert('That\'s the wrong answer!');
@@ -49,9 +49,9 @@ function questionFour() {
     alert('Correct! I was born and rased in Vietnam.');
   }
   console.log(answer);
-}
 
-function questionFive() {
+
+
   let answer = prompt('Do I have a dog?');
   if (answer.toLowerCase() === 'yes') {
     alert('yes! She is a chuawa and her name is piggy because she eats like a pig.');
@@ -60,20 +60,15 @@ function questionFive() {
     alert('Ahhhh... Too bad, thats the wrong answer!');
   }
   console.log(answer);
-}
 
-function goodBye() {
-  alert('I hope you had fun. Fell to look around, bye. ');
-}
 
-function questionSix() {
   alert('lets try a different game. this time you get 4 attempts.');
   let age = 33;
   let answer = prompt('How old do you think I am?');
-  age === answer;
+  age == answer;
   let attempts = 4;
   while (attempts < 0) {
-    if (answer === age) {
+    if (answer == age) {
       alert('Yes! You are correct!');
       break;
     }
@@ -87,6 +82,6 @@ function questionSix() {
 
     }
   }
-  if (attempts === 0)
+  if (attempts == 0)
     alert('Sorry your out of attempts. The answer is 33');
-}
+
