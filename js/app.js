@@ -44,7 +44,7 @@ function question3 (){
 }
 
 
-
+function question4 (){
   let answer = prompt('Have I always lived here in Washington state?');
   if (answer.toLowerCase() === 'yes') {
     alert('That\'s the wrong answer!');
@@ -53,6 +53,7 @@ function question3 (){
     alert('Correct! I was born and rased in Vietnam.');
   }
   console.log(answer);
+}
 
 
 
