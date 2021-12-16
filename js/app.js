@@ -66,7 +66,7 @@ function question5 (){
   }
   console.log(answer);
 }
-
+function question6 (){
   alert('lets try a different game. this time you get 4 attempts.');
   let age = 33;
   let answer = prompt('How old do you think I am?');
@@ -89,4 +89,4 @@ function question5 (){
   }
   if (attempts == 0)
     alert('Sorry your out of attempts. The answer is 33');
-
+}
