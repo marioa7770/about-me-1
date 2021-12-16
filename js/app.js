@@ -56,7 +56,7 @@ function question4 (){
 }
 
 
-
+function question5 (){
   let answer = prompt('Do I have a dog?');
   if (answer.toLowerCase() === 'yes') {
     alert('yes! She is a chuawa and her name is piggy because she eats like a pig.');
@@ -65,7 +65,7 @@ function question4 (){
     alert('Ahhhh... Too bad, thats the wrong answer!');
   }
   console.log(answer);
-
+}
 
   alert('lets try a different game. this time you get 4 attempts.');
   let age = 33;
