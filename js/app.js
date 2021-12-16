@@ -9,7 +9,7 @@ function greeting (){
   alert('ready?');
 }
 
-function question 1 (){
+function question1 (){
   let answer = prompt('Do i like coding?');
   if (answer.toLowerCase() === 'yes') {
     alert('Yes I do like coding!');
@@ -20,7 +20,7 @@ function question 1 (){
   console.log(answer);
 }
 
-
+function question2 (){
   let answer = prompt('My favorite food mac & cheese?');
   if (answer.toLowerCase() === 'yes') {
     alert('You are correct!');
@@ -29,6 +29,7 @@ function question 1 (){
     alert('Ohh... Better luck next try.');
   }
   console.log(answer);
+}
 
 
 
