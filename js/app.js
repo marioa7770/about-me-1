@@ -32,7 +32,7 @@ function question2 (){
 }
 
 
-
+function question3 (){
   let answer = prompt('Am I in to sports?');
   if (answer.toLowerCase() === 'yes') {
     alert('Sorry thats the wrong answer.');
@@ -41,6 +41,7 @@ function question2 (){
     alert('Thats right!');
   }
   console.log(answer);
+}
 
 
 
