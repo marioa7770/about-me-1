@@ -16,3 +16,8 @@ Lab 2 is an all about me project. I am building a web page with the contents tha
 
 * Consider including the answers to your daily journal and submission questions here
 * This is also a good place to reflect on the tools and resources used and learned
+
+
+driver:mario
+navigator:harvey
+we worked on adding functions to the existing code on all the questions.
