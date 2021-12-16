@@ -1,11 +1,13 @@
 
 
+function greeting (){
+
 
   let userName = prompt('what is your name?');
   alert('Hi, ' + userName + ' Welcome to my site. lets play questionnaire game. I will ask you some question about my self and you try to guess yes or no.');
   alert('this is so that you can get to know me a little better.');
   alert('ready?');
-
+}
 
 
   let answer = prompt('Do i like coding?');
